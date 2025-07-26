@@ -18,7 +18,7 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 # Create uploads directory if it doesn't exist
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Load the Keras model and class names
+#   Load the Keras model and class names
 MODEL_PATH = "lfw_cnn_model.keras"
 CLASS_NAMES_PATH = "class_names.json"
 model = None
